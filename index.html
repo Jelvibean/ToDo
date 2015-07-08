@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:test="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>To Do</title>
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+    <link href="main.css" rel="stylesheet" type="text/css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+    <script src="main.js"></script>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+    <span class="titles">Search</span><br />
+    <input id="search"  type="text" size="25" >
+    <div id="addbutton"></div>
+    <div id="hdr">TASK LIST</div>
+    <div id="content"></div>
+</div>
+
+
+<div id="popwrapper" class="popup_block">
+    <div id="popcontent">
+        <div id="taskadder">
+            <form id="todoFormTag">
+                Enter New Task. <br />
+                <input id="task" name="task" type="text" size="70" />
+                <div class="spacer10">&nbsp;</div>
+                Date to Finish: <br />
+                <input id="datepicker" name="datepicker" type="text">
+                <input id="button"  type="button" value="" />
+
+                <input id="id" value="" type="hidden">
+                <div id="error"></div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>
+
+
